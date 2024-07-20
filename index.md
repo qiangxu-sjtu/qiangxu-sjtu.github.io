@@ -1,1 +1,1 @@
-Qiang Xu(许强)
+Qiang Xu (许强)

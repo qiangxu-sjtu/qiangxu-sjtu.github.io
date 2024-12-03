@@ -10,6 +10,28 @@
 <title>Qiang, XU (许强)</title>
 </head>
 <body>
+  .title{
+    display: block;
+                text-decoration: none;
+                text-align: center;
+                line-height: 1.5;
+                margin: 20px 0px;
+                background-image: -webkit-linear-gradient(left,#3498db,#f47920 10%,#d71345 20%,#f7acbc 30%,#ffd400 40%,#3498db 50%,#f47920 60%,#d71345 70%,#f7acbc 80%,#ffd400 90%,#3498db);
+                color: transparent;
+                -webkit-background-clip: text;
+                background-size: 200% 100%;
+                -webkit-animation: slide 2s infinite linear;
+                animation: slide 5s infinite linear;
+                font-size: 40px;
+                @keyframes slide {
+                0%  {
+                  background-position: 0 0;
+                }
+                100% {
+                  background-position: -100% 0;
+                }
+            }  
+   }
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
@@ -34,7 +56,7 @@ I am also a member of the <a href="https://infosec.sjtu.edu.cn/Lab.aspx">Informa
 <p>As a researcher in the field of multimedia forensics and security, my research is related to <ins>AI-Generated Content Detection\Fake Image&Video Detection\Image&Video Forgery Detection\Deep learning\Machine Learning,</ins> etc. I am committed to leveraging advanced technologies to address real-world multimedia information security challenges. </p>
 <p style="background-color:yellow;"><font color="#FF0000">Recruitment: Pleased to announce that I have 2-3 Master's positions available for the academic year starting in 2025. Besides, I am actively looking for interns/engineers/visitors with CV/ML/Cybersecurity background to work together on various multimedia security topics. If you share same/similar interests, pls feel free to drop me an email with your resume, publications (if any), and a brief statement of interest.</font></p>
 <h2>Research</h2>
-<h3>News</h3>
+<h3 class="title">News</h3>
 <ul>
   <li><p>2024.11: One paper is accepted by <i>IEEE Transactions on Multimedia.</i> (Q1)</p>
   <li><p>2024.09: One paper is accepted by <i>IEEE Transactions on Circuits and Systems for Video Technology.</i> (Q1)</p>
